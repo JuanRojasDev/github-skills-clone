@@ -1,0 +1,89 @@
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+.mb-1 {
+    margin-bottom: var(--base-size-4, 4px) !important;
+}
+h1, .f2 {
+    text-rendering: optimizeLegibility;
+}
+h1 {
+    font-size: var(--h1-size, 32px);
+    font-weight: var(--base-text-weight-semibold, 600);
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button {
+    background-color: green;
+    padding: 0.75em 1.5em;
+    font-size: inherit;
+    line-height: 1.5;
+    border-radius: 0.5em;
+    
+}
+
+button a {
+    color: white;
+}
+
+a {
+    color: #0969da;
+}
+hoja de estilo de user-agent
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h1,
+    .f2 {
+      text-rendering: optimizeLegibility;
+    }
+
+    .highlight .nt {
+      color: var(--color-prettylights-syntax-entity-tag);
+    }
+
+    .highlight .na {
+      color: var(--color-prettylights-syntax-constant);
+    }
+
+    .highlight .s {
+      color: var(--color-prettylights-syntax-string);
+    }
+
+    .highlight .sx {
+      color: var(--color-prettylights-syntax-constant);
+    }
+
+    .highlight .c1 {
+      /*
+        Using codemirror to pass accesibility
+        Re: https://github.com/github/accessibility-audits/issues/7465
+      */
+      color: var(--color-codemirror-syntax-comment);
+    }
+
+    .highlight .m {
+      color: var(--color-prettylights-syntax-constant);
+    }
